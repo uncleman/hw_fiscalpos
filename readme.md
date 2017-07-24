@@ -56,3 +56,6 @@ This odoo module is a modified version of hw_escpos to support the following fis
 
       var methodName = fiscalPrinter ? 'print_fiscal_receipt' : 'print_xml_receipt'
       self.message(methodName,{ receipt: r },{ timeout: 5000 })
+
+
+If you prefer, you could replace the original js files with the already edited version stored into pos_js_fiscalpos_files directory . Into the same directory you'll  find the script to copy js file directly into a odoo docker container by using only odoo container name as parameter
